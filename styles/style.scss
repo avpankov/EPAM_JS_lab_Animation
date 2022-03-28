@@ -40,7 +40,7 @@ body {
                     margin-left: calc(100% - 100px);
                 }
             }
-            animation: anim2 4s infinite;
+            animation: anim2 4s 3;
         }
     }
 
@@ -75,19 +75,19 @@ body {
                 }
                 25% {
                     margin-left: calc(100% - 100px);
-                    margin-top: 0%;
+                    top: 50px;
                 }
                 50% {
                     margin-left: calc(100% - 100px);
-                    margin-top: calc(50% - 50px);
+                    top: calc(100% - 100px);
                 }
                 75% {
                     margin-left: calc(0% + 50px);
-                    margin-top: calc(50% - 50px);
+                    top: calc(100% - 100px);
                 }
                 100% {
                     margin-left: calc(0% + 50px);
-                    margin-top: 0%;
+                    top: 50px;
                 }
             }
             animation: anim4 8s infinite;
@@ -165,7 +165,7 @@ body {
             width: 50px;
             height: 50px;
             border: 1px solid blue;
-            animation: anim11 8s linear infinite;
+            animation: anim11 3s linear infinite;
             animation-play-state: paused;
         }
         .box:hover + .animation-box {
